@@ -1,0 +1,630 @@
+
+2019-02-27 12:23:23
+[INFO]-[Thread: main]-[org.eclipse.jetty.util.log.Log.initialized()]: Logging initialized @4946ms to org.eclipse.jetty.util.log.Slf4jLog
+
+2019-02-27 12:23:25
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_191-b12
+
+2019-02-27 12:23:25
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:23:25
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.DefaultSessionIdManager.doStart()]: DefaultSessionIdManager workerName=node0
+
+2019-02-27 12:23:25
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.DefaultSessionIdManager.doStart()]: No SessionScavenger set, using defaults
+
+2019-02-27 12:23:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.HouseKeeper.startScavenging()]: node0 Scavenging every 660000ms
+
+2019-02-27 12:23:26
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:23:26
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:23:27
+[WARN]-[Thread: main]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:23:27
+[INFO]-[Thread: main]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:23:27
+[WARN]-[Thread: main]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:23:27
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 1188 ms.
+
+2019-02-27 12:23:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:23:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started ServerConnector@7a48e6e2{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+
+2019-02-27 12:23:27
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: Started @8791ms
+
+2019-02-27 12:28:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:28:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:28:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:28:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:28:02
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:28:03
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:28:03
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:28:03
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:28:03
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 422 ms.
+
+2019-02-27 12:28:03
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:28:07
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:28:07
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:28:07
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:28:07
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:28:07
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:28:08
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:28:08
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:28:08
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:28:08
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 308 ms.
+
+2019-02-27 12:28:08
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:28:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:28:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:28:13
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:28:13
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 382 ms.
+
+2019-02-27 12:28:13
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:31:39
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:31:40
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:31:40
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 352 ms.
+
+2019-02-27 12:31:40
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:31:55
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:31:55
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 376 ms.
+
+2019-02-27 12:31:55
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:32:15
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:32:15
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:32:15
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 339 ms.
+
+2019-02-27 12:32:16
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:33:46
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:33:46
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 320 ms.
+
+2019-02-27 12:33:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:34:01
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:34:01
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 320 ms.
+
+2019-02-27 12:34:01
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:34:36
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:34:36
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:34:36
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:34:36
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:34:36
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:34:37
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:34:37
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:34:37
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:34:37
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 316 ms.
+
+2019-02-27 12:34:37
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 12:34:56
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 12:34:56
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 12:34:57
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 12:34:57
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 254 ms.
+
+2019-02-27 12:34:57
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:16:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:16:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:16:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:16:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:16:12
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:16:13
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:16:13
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:16:13
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:16:13
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 375 ms.
+
+2019-02-27 14:16:13
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:17:28
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:17:28
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:17:28
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:17:28
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:17:28
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:17:29
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:17:29
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:17:29
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:17:29
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 420 ms.
+
+2019-02-27 14:17:29
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:29:46
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:29:46
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 287 ms.
+
+2019-02-27 14:29:46
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:30:51
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:30:51
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:30:51
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:30:51
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:30:51
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:30:52
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:30:52
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:30:52
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:30:52
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 382 ms.
+
+2019-02-27 14:30:52
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:31:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:31:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:31:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:31:11
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:31:11
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:31:12
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:31:12
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:31:12
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:31:12
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 277 ms.
+
+2019-02-27 14:31:12
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:37:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:37:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:37:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:37:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:37:05
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:37:06
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:37:06
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:37:06
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:37:06
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 576 ms.
+
+2019-02-27 14:37:06
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:40:02
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:40:02
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 363 ms.
+
+2019-02-27 14:40:02
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:42:43
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:42:43
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:42:44
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:42:44
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 488 ms.
+
+2019-02-27 14:42:44
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-27 14:42:54
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-27 14:42:54
+[WARN]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 301 ms.
+
+2019-02-27 14:42:54
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-27 14:44:04
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Cleaning up Shiro Environment
+
+2019-02-27 14:44:04
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler.doStop()]: Stopped o.e.j.w.WebAppContext@2b491fee{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,UNAVAILABLE}
+
+2019-02-27 14:44:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-27 14:44:05
+[INFO]-[Thread: JFinal-Scanner]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-27 14:44:05
+[INFO]-[Thread: JFinal-Scanner]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.

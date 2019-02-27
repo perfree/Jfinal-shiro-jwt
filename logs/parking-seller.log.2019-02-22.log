@@ -1,0 +1,45 @@
+
+2019-02-22 09:32:55
+[INFO]-[Thread: main]-[org.eclipse.jetty.util.log.Log.initialized()]: Logging initialized @805ms to org.eclipse.jetty.util.log.Slf4jLog
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_191-b12
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.webapp.StandardDescriptorProcessor.visitServlet()]: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.DefaultSessionIdManager.doStart()]: DefaultSessionIdManager workerName=node0
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.DefaultSessionIdManager.doStart()]: No SessionScavenger set, using defaults
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.session.HouseKeeper.startScavenging()]: node0 Scavenging every 600000ms
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler$Context.log()]: Initializing Shiro environment
+
+2019-02-22 09:32:56
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Starting Shiro environment initialization.
+
+2019-02-22 09:32:57
+[WARN]-[Thread: main]-[org.apache.shiro.web.mgt.DefaultWebSecurityManager.setSessionManager()]: The org.apache.shiro.web.mgt.DefaultWebSecurityManager implementation expects SessionManager instances that implement the org.apache.shiro.web.session.mgt.WebSessionManager interface.  The configured instance is of type [org.apache.shiro.session.mgt.DefaultSessionManager] which does not implement this interface..  This may cause unexpected behavior.
+
+2019-02-22 09:32:57
+[INFO]-[Thread: main]-[org.apache.shiro.config.IniSecurityManagerFactory.isAutoApplyRealms()]: Realms have been explicitly set on the SecurityManager instance - auto-setting of realms will not occur.
+
+2019-02-22 09:32:57
+[WARN]-[Thread: main]-[org.apache.shiro.web.config.IniFilterChainResolverFactory.buildChains()]: The [filters] section has been deprecated and will be removed in a future release!  Please move all object configuration (filters and all other objects) to the [main] section.
+
+2019-02-22 09:32:57
+[INFO]-[Thread: main]-[org.apache.shiro.web.env.EnvironmentLoader.initEnvironment()]: Shiro environment initialized in 695 ms.
+
+2019-02-22 09:32:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.handler.ContextHandler.doStart()]: Started o.e.j.w.WebAppContext@b62d79{/,file:///D:/stsWork/jfinal-jwt/src/main/webapp/,AVAILABLE}
+
+2019-02-22 09:32:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.AbstractConnector.doStart()]: Started ServerConnector@446293d{HTTP/1.1,[http/1.1]}{0.0.0.0:8088}
+
+2019-02-22 09:32:57
+[INFO]-[Thread: main]-[org.eclipse.jetty.server.Server.doStart()]: Started @2380ms
